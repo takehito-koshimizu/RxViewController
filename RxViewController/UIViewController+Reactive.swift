@@ -43,6 +43,16 @@ public extension Reactive where Base: UIViewController {
     }
 }
 
+public extension Reactive where Base: UIViewController {
+    public func observer<T>(binding: @escaping (Base, T) -> Void) -> UIBindingObserver<Base, T> {
+        return UIBindingObserver<Base, T>(UIElement: base, binding: binding)
+    }
+}
+
+public extension ReactiveCompatible where Self: UIViewController {
+    public typealias BindingObserver<T> = UIBindingObserver<Self, T>
+}
+
 extension Reactive where Base: AnyObject {
 
     func _sentMessage<T>(_ selector: Selector) -> Observable<T> {

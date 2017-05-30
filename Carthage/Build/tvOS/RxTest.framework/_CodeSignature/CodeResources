@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/RxTest-Swift.h</key>
 		<data>
-		9046MNU13NHpTkAFAgtpq3AnDLo=
+		YjOFRc0CuVQCBOwKMIfA02UQ3n4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VdNwGgVzuInOPZiPMGXHYw9qtkM=
+		hQL2p7mlmXuf3b7YtaaBHQHmCvg=
 		</data>
 		<key>Modules/RxTest.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		c88lh3jrQOPttHFURnVe0MmMZ7o=
+		ET2nrfrSFas9K3/o3qHP6a8a1+A=
 		</data>
 		<key>Modules/RxTest.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		eYUJnkDK86WhDRykvNlbBx7fdiQ=
+		OY1ZAC7FFeITHZ7kADlXPIAxzNg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,33 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9046MNU13NHpTkAFAgtpq3AnDLo=
+			YjOFRc0CuVQCBOwKMIfA02UQ3n4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qilj408Z8sWFEMpFXVTa0mmJzBRqZ5xHLhze50LQesY=
+			um2DblenFuzq69SSzT/tG1yzjMpBU+qr32AXFsvSyDU=
 			</data>
 		</dict>
 		<key>Modules/RxTest.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c88lh3jrQOPttHFURnVe0MmMZ7o=
+			ET2nrfrSFas9K3/o3qHP6a8a1+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			qI4OXvjOy72fI5xlAEJrpyQTGMGsS1cwOyeOS7hJaqU=
+			8YPzfDjSVulICR67Qs0q9k+VU0UMur+0wnNUi7Pyk6o=
 			</data>
 		</dict>
 		<key>Modules/RxTest.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eYUJnkDK86WhDRykvNlbBx7fdiQ=
+			OY1ZAC7FFeITHZ7kADlXPIAxzNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rxx9otRwpKVfSuXIQpea4c+/HGcfLMPKCwPLpZZ5u+U=
+			IDnjg+FNFFhvD4qr7O2ttncjG1+AK59zWSMmqrXm9nw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
