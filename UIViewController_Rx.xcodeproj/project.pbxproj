@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		AB23B2951E6BF5A0007BBFEE /* RxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB23B2931E6BF5A0007BBFEE /* RxViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB23B29C1E6BF726007BBFEE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AB23B29B1E6BF726007BBFEE /* Cartfile */; };
-		AB23B2A01E6BF89B007BBFEE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB23B29E1E6BF89B007BBFEE /* RxCocoa.framework */; };
-		AB23B2A11E6BF89B007BBFEE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB23B29F1E6BF89B007BBFEE /* RxSwift.framework */; };
 		AB23B2A41E6BF93B007BBFEE /* UIViewController+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23B2A31E6BF93B007BBFEE /* UIViewController+Reactive.swift */; };
+		ABD43BD71F40838600EFD9B8 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD43BD61F40838600EFD9B8 /* Optional.swift */; };
+		ABD43BD91F4083E800EFD9B8 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD43BD81F4083E800EFD9B8 /* NSObject.swift */; };
+		ABD43BDB1F40840F00EFD9B8 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD43BDA1F40840F00EFD9B8 /* ObservableType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,12 @@
 		AB23B2931E6BF5A0007BBFEE /* RxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxViewController.h; sourceTree = "<group>"; };
 		AB23B2941E6BF5A0007BBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB23B29B1E6BF726007BBFEE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		AB23B29E1E6BF89B007BBFEE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		AB23B29F1E6BF89B007BBFEE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		AB23B2A31E6BF93B007BBFEE /* UIViewController+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Reactive.swift"; sourceTree = "<group>"; };
+		ABD43BC71F40347F00EFD9B8 /* UIViewController_RxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_RxTests.swift; sourceTree = "<group>"; };
+		ABD43BC91F40347F00EFD9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD43BD61F40838600EFD9B8 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		ABD43BD81F4083E800EFD9B8 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		ABD43BDA1F40840F00EFD9B8 /* ObservableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,8 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB23B2A01E6BF89B007BBFEE /* RxCocoa.framework in Frameworks */,
-				AB23B2A11E6BF89B007BBFEE /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				AB23B29B1E6BF726007BBFEE /* Cartfile */,
+				ABD43BC61F40347F00EFD9B8 /* UIViewController_RxTests */,
 				AB23B2911E6BF5A0007BBFEE /* Products */,
 				AB23B2921E6BF5A0007BBFEE /* RxViewController */,
 				AB23B29D1E6BF89B007BBFEE /* Frameworks */,
@@ -61,6 +64,9 @@
 				AB23B2941E6BF5A0007BBFEE /* Info.plist */,
 				AB23B2931E6BF5A0007BBFEE /* RxViewController.h */,
 				AB23B2A31E6BF93B007BBFEE /* UIViewController+Reactive.swift */,
+				ABD43BD61F40838600EFD9B8 /* Optional.swift */,
+				ABD43BD81F4083E800EFD9B8 /* NSObject.swift */,
+				ABD43BDA1F40840F00EFD9B8 /* ObservableType.swift */,
 			);
 			path = RxViewController;
 			sourceTree = "<group>";
@@ -68,10 +74,17 @@
 		AB23B29D1E6BF89B007BBFEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB23B29E1E6BF89B007BBFEE /* RxCocoa.framework */,
-				AB23B29F1E6BF89B007BBFEE /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD43BC61F40347F00EFD9B8 /* UIViewController_RxTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD43BC71F40347F00EFD9B8 /* UIViewController_RxTests.swift */,
+				ABD43BC91F40347F00EFD9B8 /* Info.plist */,
+			);
+			path = UIViewController_RxTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +109,6 @@
 				AB23B28C1E6BF5A0007BBFEE /* Frameworks */,
 				AB23B28D1E6BF5A0007BBFEE /* Headers */,
 				AB23B28E1E6BF5A0007BBFEE /* Resources */,
-				AB23B2A21E6BF8B7007BBFEE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -113,13 +125,14 @@
 		AB23B2871E6BF5A0007BBFEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Takehito Koshimizu";
 				TargetAttributes = {
 					AB23B28F1E6BF5A0007BBFEE = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -151,30 +164,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		AB23B2A21E6BF8B7007BBFEE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		AB23B28B1E6BF5A0007BBFEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD43BD91F4083E800EFD9B8 /* NSObject.swift in Sources */,
 				AB23B2A41E6BF93B007BBFEE /* UIViewController+Reactive.swift in Sources */,
+				ABD43BDB1F40840F00EFD9B8 /* ObservableType.swift in Sources */,
+				ABD43BD71F40838600EFD9B8 /* Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +281,11 @@
 		AB23B2991E6BF5A0007BBFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -300,6 +299,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.takehito.koshimizu.uiviewcontroller-rx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -309,10 +309,11 @@
 		AB23B29A1E6BF5A0007BBFEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -326,6 +327,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.takehito.koshimizu.uiviewcontroller-rx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};

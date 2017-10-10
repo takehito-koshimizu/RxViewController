@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ABD43BC41F40347F00EFD9B8"
+               BuildableName = "UIViewController_RxTests.xctest"
+               BlueprintName = "UIViewController_RxTests"
+               ReferencedContainer = "container:UIViewController_Rx.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AB23B28F1E6BF5A0007BBFEE"
+            BuildableName = "UIViewController_Rx.framework"
+            BlueprintName = "UIViewController_Rx"
+            ReferencedContainer = "container:UIViewController_Rx.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
